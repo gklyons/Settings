@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="102" id="isC-oZ-VaP" customClass="SettingTableViewCell" customModule="Settings" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="settingCell" rowHeight="102" id="isC-oZ-VaP" customClass="SettingTableViewCell" customModule="Settings" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="102"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="isC-oZ-VaP" id="UtY-Nl-eN2">
@@ -58,7 +58,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="settingIconImageView" destination="gq9-cc-1do" id="cyO-Gu-xC3"/>
-                                    <outlet property="settingNameLabel" destination="MkF-Kj-CRl" id="MYp-G8-GT5"/>
+                                    <outlet property="settingNameLabel" destination="X8W-HF-Wu4" id="RmD-Bv-aY0"/>
                                     <outlet property="settingSwitch" destination="csz-gN-e3E" id="TzY-ca-5zO"/>
                                 </connections>
                             </tableViewCell>
